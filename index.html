@@ -32,7 +32,7 @@
 </head>
 <body>
 
-<section class="section1 section1-eco" style="padding-bottom:0px;" id="pos_inherit">
+<section class="section1-eco" style="padding-bottom:0px;" id="pos_inherit">
     <!--当设备为pc机时显示的内容-->
     <div class="logo0622">
         <img onerror="javascript:this.src='assets/images/default-icon.png';" src="assets/images/logo.png">
@@ -41,8 +41,13 @@
 
         <div class="fixed-download">
         <div data-easing="Power4.easeOut" data-start="1700" data-speed="1000" data-voffset="85" data-hoffset="0" data-y="center" data-x="550" class="tp-caption sfb hidden-xs start" style="min-height: 0px; min-width: 0px; line-height: 20px; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; font-size: 14px; left: 676.5px; top: 281.5px; visibility: visible; opacity: 1; transform: translate3d(0px, 0px, 0px);">
-            <input type="hidden" id="ios_tips" value="0">
-                <a id="down1" class="btn btn-primary inverse btn-lg " href="https://pornplayer.github.io/yese.apk"><i class="fa fa-android"></i> 下载安装</a>
+            <input type="hidden" id="ios_tips" value="0"/>
+            <a id="down1" class="btn btn-primary inverse btn-lg " href="https://pornplayer.github.io/yese.apk">
+                <i class="fa fa-android"></i> 下载安装
+            </a>
+            <a id="down4" class="btn btn-primary inverse btn-lg " href="javascript:void(0)" style="margin-left: 1em;">
+                <i class="fa fa-apple"></i> 敬请期待
+            </a>
         </div>
     </div>
     <div class="qr tada">
@@ -61,25 +66,24 @@
 
     <!--当设备为移动端设备时显示的内容-->
     <div class="phone_show">
-
-                    <p class="p2">
-                1.0(Build 1)            </p>
-            <p class="p3">更新于 2017-02-09</p>
+        <p class="p2">1.6(Build 8)</p>
+        <p class="p3">更新于 2017-02-09</p>
         <div class="load_fixed">
-            <a id="down2" href="https://pornplayer.github.io/yese.apk" onClick="ajaxTj()" class="btn btn-primary inverse btn-lg "><i class="fa fa-android"></i>
-                下载安装
+            <a id="down2" href="https://pornplayer.github.io/yese.apk" onClick="ajaxTj()" class="btn btn-primary inverse btn-lg ">
+                <i class="fa fa-android"></i>下载安装
+            </a>
+            <a id="down3" href="javascript:void(0)" class="btn btn-primary inverse btn-lg" style="margin-top: 1em;">
+                <i class="fa fa-apple"></i>敬请期待
             </a>
             <p class="p3" style="display:none" id="down_tip"></p>
             <div id="down_loading" class="fixing" style="display: none;">
                 <i class="fa fa-circle-o-notch fa-4x fa-spin"></i>
             </div>
             <p id="install_tips" style="display: none;" class="home_key">正在安装，请按 Home 键到桌面查看</p>
-
         </div>
-        
     </div>
         <!--页面下拉提示-->
-    <div class="next-page">
+    <div class="next-page" style="display: none;">
         <div class="next-page-logo"><img class="array" src="assets/images/xiala.png"></div>
     </div>
 
@@ -105,7 +109,7 @@
 </div>
 <!--ios9提示结构结束-->
 
-<section class="section2" style="padding-bottom:0px;">
+<section class="section2" style="padding-bottom:0px; display: none;">
     <div class="container cy_container0624">
         <div class="title">夜色</div>
         <div class="section2_content">
@@ -117,7 +121,7 @@
                     <em>其它</em>
                 </span>
                 <span> 文件大小 :
-                    <em> 1.39 MB</em>
+                    <em> 1.68 MB</em>
                 </span>
                 <span>更新于: 2017-02-09 </span>
             </p>
@@ -128,7 +132,7 @@
     </div>
 </section>
 
-<footer class="finial_footer footer-eco" style=" width:100%; height:40px; line-height:40px;">
+<footer class="finial_footer footer-eco" style="display: none; width:100%; height:40px; line-height:40px;">
     <div class="rights" style="margin-top: 0px; text-align: center">
         <p><a href="/">@夜色</a></p>
     </div>
