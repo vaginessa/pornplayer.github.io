@@ -166,20 +166,6 @@
 <script src="assets/js/bootstrap.min.js"></script>
 
 <script>
-    window.onscroll = function() {
-        var screenH = $(window).height();
-        var t = document.documentElement.scrollTop || document.body.scrollTop;
-        //  var open=1;
-        if (t > 15 && open != 0) {
-            $(".next-page").css("display","none");
-            open = 0;
-        }
-        if (t == 0) {
-            open = 1;
-            $(".next-page").css("display","block");
-        }
-    }
-
     function ajaxTj() {
         var browser = appMaster.getBrower();
         if (appMaster.isWeixin() || appMaster.isWeibo()) {
